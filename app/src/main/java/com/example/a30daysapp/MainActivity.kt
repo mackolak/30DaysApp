@@ -6,10 +6,10 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.a30daysapp.model.GetAnimals
 import com.example.a30daysapp.ui.theme._30DaysAppTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,25 +22,17 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    AnimalList(animals = GetAnimals.get())
                 }
             }
         }
     }
 }
 
+@Preview
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
+fun PreviewAnimalDisplay() {
     _30DaysAppTheme {
-        Greeting("Android")
+        AnimalList(animals = GetAnimals.get())
     }
 }
