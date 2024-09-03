@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">30 Days App</string>
+    <string name="cat">Cat</string>
+    <string name="cat_desc">The cat (Felis catus), commonly referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal.</string>
+    <string name="bunny">Bunny</string>
+    <string name="bunny_desc">Rabbits are small mammals in the family Leporidae (which also includes the hares), which is in the order Lagomorpha (which also includes pikas). </string>
+    <string name="chameleon">Chameleon</string>
+    <string name="chameleon_desc">Chameleons are a family of lizards. Most can change the colour of their skins for camouflage, or to signal mood to other chameleons.</string>
+    <string name="deer">Deer</string>
+    <string name="deer_desc">Deer constitute the second most diverse family of artiodactyla after bovids.</string>
+    <string name="duckling">Duckling</string>
+    <string name="duckling_desc">Ducklings are young ducks in downy plumage1. They are small and fluffy with large webbed feet.</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="giraffe_desc">A giraffe is a mammal that lives in Africa. It is the tallest land animal, reaching an overall height of 18 ft (5.5 m) or more</string>
+    <string name="parrot">Parrot</string>
+    <string name="parrot_desc">A parrot is a tropical and subtropical bird that belongs to the order Psittaciformes. They are characterized by large heads, upright stance, strong and clawed zygodactyl feet, and strong and curved beaks.</string>
+    <string name="penguin">Penguin</string>
+    <string name="penguin_desc">Penguins are flightless seabirds that live almost exclusively below the equator. They have countershaded dark and white plumage and flippers for swimming.</string>
+    <string name="puppies">Puppies</string>
+    <string name="puppies_desc">A puppy is a juvenile dog. Some puppies can weigh 1–1.5 kg (2.2–3.3 lb), while larger ones can weigh over 7 kg (15 lb).</string>
+    <string name="squirrel">Squirrel</string>
+    <string name="squirrel_desc">Squirrels are small rodents with slender bodies, bushy tails and large eyes. They have strong hind legs and a hairy tail.</string>
+    <string name="tiger">Tiger</string>
+    <string name="tiger_desc">The tiger (Panthera tigris) is the largest living cat species1. It is most recognizable for its black stripes on orange fur with a white underside.</string>
+    <string name="day">"Day "</string>
 </resources>
