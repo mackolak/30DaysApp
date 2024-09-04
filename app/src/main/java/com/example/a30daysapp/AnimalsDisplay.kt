@@ -3,8 +3,11 @@ package com.example.a30daysapp
 import androidx.annotation.DrawableRes
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
+import androidx.compose.animation.shrinkVertically
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.Image
@@ -28,6 +31,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
@@ -81,8 +85,15 @@ fun AnimalListItem(
 fun AnimalDescription(visible: Boolean, text: String, modifier: Modifier = Modifier) {
     AnimatedVisibility(
         visible = visible,
-        enter = slideInVertically(initialOffsetY = { -it }),
-        exit = slideOutVertically(targetOffsetY = { -it })
+        enter = expandVertically(
+                    // Expand from the top.
+                    expandFrom = Alignment.Top
+                )
+                + fadeIn(animationSpec = tween(durationMillis = 250))
+                + slideInVertically(initialOffsetY = { -it }),
+        exit = shrinkVertically()
+               + fadeOut(animationSpec = tween(durationMillis = 100))
+               + slideOutVertically(targetOffsetY = { -it })
     ) {
         Text(
             text = text,
