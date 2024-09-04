@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">30 Days App</string>
+    <string name="cat_desc">opis macky</string>
+    <string name="bunny">Zajacik</string>
+    <string name="cat">Macka</string>
+    <string name="bunny_desc">opis zajacika</string>
+    <string name="chameleon">Chameleon</string>
+    <string name="chameleon_desc">opis chameleona</string>
+    <string name="deer">Jelen</string>
+    <string name="deer_desc">opis jelena</string>
+    <string name="duckling">kaciatko</string>
+    <string name="duckling_desc">opis kaciatka</string>
+    <string name="giraffe">zirafa</string>
+    <string name="giraffe_desc">opis zirafy</string>
+    <string name="parrot">papagaj</string>
+    <string name="parrot_desc">opis papagaja</string>
+    <string name="penguin">tucniak</string>
+    <string name="penguin_desc">opis tucniaka</string>
+    <string name="puppies">steniatka</string>
+    <string name="puppies_desc">opis steniatok</string>
+    <string name="squirrel">vevericka</string>
+    <string name="squirrel_desc">opis vevericky</string>
+    <string name="tiger">tiger</string>
+    <string name="tiger_desc">opis tigra</string>
+    <string name="day">Den</string>
+</resources>
